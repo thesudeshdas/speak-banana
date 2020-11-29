@@ -13,6 +13,7 @@
 }
 
 body, html {
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #FEF3C7;
@@ -81,7 +82,7 @@ button {
     background-color: var(--theme-secondary);
     border: 2px solid var(--text-primary);
     width: 80%;
-    height: 30vh;
+    height: 15vh;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 1rem;
@@ -92,8 +93,6 @@ footer {
     background-color: var(--theme-primary);
     padding-top: 1rem;
     margin-top: 1rem;
-    position: relative;
-    bottom: 0;
     width: 100%;
     color: var(--text-blue);
 }
@@ -111,23 +110,6 @@ section {
     padding: 1rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* desktop */ 
 @media only screen and (min-width: 768px) {
     nav {
@@ -135,10 +117,9 @@ section {
     }
     
     footer {
-        position: relative;
+        position: absolute;
         bottom: 0;
     }
-    
     
     .text-area {
         width: 50%;
