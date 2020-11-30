@@ -20,7 +20,7 @@ const getUrl = text => {
 
 
 const showError = error => {
-    alert('Some error occured\n' + error);
+    alert('Some error occured\n' + error + '\nPlease try after sometime.');
 }
 
 
