@@ -1,7 +1,3 @@
-# speak-banana
-A translation app to convert to the l;anguages of minions.
-
-
 # Speak Banana
 A translation app to convert English to the languages of minions, BANANA!
 
